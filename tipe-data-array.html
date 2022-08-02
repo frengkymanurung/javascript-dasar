@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+<script>
+
+    let arrayKosong = [];
+
+    let arrayNama = ["Frengky", "Soritua", "Manurung"];
+
+    const names = [];
+    names.push("Frengky");
+    names.push("Soritua", "Manurung");
+    names.push("Budi", "Joko", "Rudi");
+
+    console.table(names);
+
+    console.info(names[0]);
+    console.info(names[1]);
+    console.info(names[2]);
+
+    names[0] = "Programmer";
+    names[1] = "Pemula";
+    names[2] = "YGY";
+
+    console.table(names);
+
+    delete names[3];
+
+    console.table(names);
+
+    names.push("Frengky Lagi");
+
+    console.table(names);
+
+    names[3] = "Diubah Lagi";
+    names.push(1,2,3,4,5);
+    names.push(["Frengky", "Kurniawna", "Manurung"]);
+
+    console.table(names);
+
+</script>
+</body>
+</html>
